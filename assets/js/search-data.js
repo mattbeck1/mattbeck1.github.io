@@ -454,6 +454,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-",
+          title: '',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/DS1001/";
+            },},{id: "teaching-",
+          title: '',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/ISE321/";
             },},{
         id: 'social-email',
         title: 'email',
