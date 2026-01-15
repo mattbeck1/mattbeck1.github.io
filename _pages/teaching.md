@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 3
 display_categories: [Stony Brook University, University of Virginia]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/teaching.md -->
@@ -23,8 +23,8 @@ horizontal: false
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_teaching %}
-      {% include projects_horizontal.liquid %}
+    {% for teaching in sorted_teaching %}
+      {% include teaching_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
