@@ -454,14 +454,14 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teaching-",
-          title: '',
-          description: "",
+            },},{id: "teaching-project-1",
+          title: 'project 1',
+          description: "with background image",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/DS1001/";
-            },},{id: "teaching-",
-          title: '',
-          description: "",
+            },},{id: "teaching-project-1",
+          title: 'project 1',
+          description: "with background image",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/ISE321/";
             },},{
