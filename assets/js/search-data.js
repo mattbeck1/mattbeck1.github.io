@@ -327,17 +327,6 @@ ninja.data = [{
             window.location.href = "/blog/2021/distill/";
           
         },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
       },{id: "post-a-post-with-disqus-comments",
         
           title: "a post with disqus comments",
@@ -454,9 +443,14 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teaching-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "teaching-apma-3100",
+          title: 'APMA 3100',
+          description: "Probability",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/APMA3100/";
+            },},{id: "teaching-ds-1001",
+          title: 'DS 1001',
+          description: "Foundation of Data Science",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/DS1001/";
             },},{id: "teaching-project-1",
