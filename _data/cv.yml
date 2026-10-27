@@ -52,6 +52,15 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - title: Systems Administration
+      institution: Department of Computer Science, Stony Brook University
+      maindescription: <em>Teaching Assistant</em> for Professor Ahmad Esmaili
+      year: Spring 2026
+      description:
+        - Managed weekly office hours
+        - Reviewed assignments, providing feedback and grades
+        - Reviewed and edited lab and homework assignments
+
     - title: Introduction to Network Administration
       institution: Department of Computer Science, Stony Brook University
       maindescription: <em>Teaching Assistant</em> for Professor Ahmad Esmaili
@@ -60,15 +69,6 @@
         - Manage weekly lab sessions
         - Review assignments, providing feedback and grades
         - Review and edit lab and homework assignments
-
-    - title: Systems Administration
-      institution: Department of Computer Science, Stony Brook University
-      maindescription: <em>Teaching Assistant</em> for Professor Ahmad Esmaili
-      year: Spring 2025
-      description:
-        - Managed weekly office hours
-        - Reviewed assignments, providing feedback and grades
-        - Reviewed and edited lab and homework assignments
 
     - title: Foundation of Data Science
       institution: School of Data Science, University of Virginia
