@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Systems Administration
-description: Information Systems Course
+description: Teaching Assistant
 importance: 2
 category: Stony Brook University
 professor: Professor Ahmad Esmaili

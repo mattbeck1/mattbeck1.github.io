@@ -6,6 +6,9 @@ description:
 nav: true
 nav_order: 3
 display_categories: [Stony Brook University, University of Virginia]
+logos:
+  Stony Brook University: stonybrook.svg
+  University of Virginia: uva.svg
 horizontal: true
 ---
 
@@ -14,8 +17,11 @@ horizontal: true
 {% if site.enable_teaching_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
+  {% assign logo = page.logos[category] %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category">
+      {% if logo %}<img src="{{ logo | prepend: '/assets/img/logos/' | relative_url }}" alt="{{ category }}" style="height: 2.25rem; background: #fff; padding: 0.25rem 0.6rem; border-radius: 0.25rem; vertical-align: middle;">{% else %}{{ category }}{% endif %}
+    </h2>
   </a>
   {% assign categorized_teaching = site.teaching | where: "category", category %}
   {% assign sorted_teaching = categorized_teaching | sort: "importance" %}
