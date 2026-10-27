@@ -195,6 +195,18 @@ ul.timeline li::before {
   top: -0.5rem;
 }
 
+// Long date ranges (e.g. "Aug 2025 - Present") wrap instead of overflowing into the title.
+.cv .badge {
+  white-space: normal;
+}
+
+// The sticky section menu overlaps the page content on narrow screens.
+@media (max-width: 767.98px) {
+  #toc-sidebar {
+    display: none;
+  }
+}
+
 /*ul.timeline::before {
      content: "●";
      font-size: 1em;
