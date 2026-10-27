@@ -9,33 +9,36 @@
       institution: University of Virginia, Charlottesville, VA
       year: May 2025
 
-    - title: B.S. with High Distinction, Computer Science
+    - title: B.S., Computer Science (High Distinction)
       institution: University of Virginia, Charlottesville, VA
       year: May 2024
       description:
-        - Applied Mathematics and Data Science Minors, Cybersecurity Focal Path
+        - Minors in Applied Mathematics and Data Science; Cybersecurity Focal Path
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: Research Assistant, Professor R. Sekar
+    - title: Intrusion Detection Pipeline and Windows Logging
       institution: Department of Computer Science, Stony Brook University
+      maindescription: <em>Research Assistant</em> with Professor R. Sekar
       year: Aug 2025 - Present
       description:
-        - Developing complete intrusion detection system pipeline
-        - Building an efficient, information rich Windows log producer for intrusion detection systems
+        - Developing a complete intrusion detection system pipeline
+        - Building an efficient, information-rich Windows log producer for intrusion detection systems
 
-    - title: Research Assistant, Professor Wajih Ul Hassan
+    - title: Intrusion Detection Throughput
       institution: Department of Computer Science, University of Virginia
+      maindescription: <em>Research Assistant</em> with Professor Wajih Ul Hassan
       year: Jun 2024 - May 2025
       description:
-        - Investigating the optimization of intrusion detection systems' throughput
+        - Investigated optimizations to the throughput of intrusion detection systems
 
-    - title: Team Member, Data Science Capstone
+    - title: Surgical Flowsheet Digitization
       institution: School of Data Science, University of Virginia
+      maindescription: <em>Data Science Capstone Team Member</em>
       year: Oct 2024 - May 2025
       description:
-        - Constructing computer vision software to digitize surgical flowsheets for developing countries
+        - Built computer vision software to digitize surgical flowsheets for developing countries
 
 - title: Publications
   type: time_table
@@ -49,62 +52,70 @@
 - title: Teaching Experience
   type: time_table
   contents:
-    - title: Teaching Assistant, "Introduction to Network Administration" (Ahmad Esmaili)
+    - title: Introduction to Network Administration
       institution: Department of Computer Science, Stony Brook University
+      maindescription: <em>Teaching Assistant</em> for Professor Ahmad Esmaili
       year: Fall 2025
       description:
         - Manage weekly lab sessions
-        - Review assignments, providing feedback and grade
-        - Review and edit lab/homework assignments
+        - Review assignments, providing feedback and grades
+        - Review and edit lab and homework assignments
 
-    - title: Teaching Assistant, "Systems Administration" (Ahmad Esmaili)
+    - title: Systems Administration
       institution: Department of Computer Science, Stony Brook University
+      maindescription: <em>Teaching Assistant</em> for Professor Ahmad Esmaili
       year: Spring 2025
       description:
-        - Manage weekly office hours
-        - Review assignments, providing feedback and grade
-        - Review and edit lab/homework assignments
+        - Managed weekly office hours
+        - Reviewed assignments, providing feedback and grades
+        - Reviewed and edited lab and homework assignments
 
-    - title: Teaching Assistant, "Foundation of Data Science" (Professor Pete Alonzi and Ali Rivera)
+    - title: Foundation of Data Science
       institution: School of Data Science, University of Virginia
+      maindescription: <em>Teaching Assistant</em> for Professor Pete Alonzi and Ali Rivera
       year: Spring 2025
 
-    - title: Teaching Assistant, "Defense Against the Dark Arts" (Professor Wajih Ul Hassan)
+    - title: Defense Against the Dark Arts
       institution: Department of Computer Science, University of Virginia
+      maindescription: <em>Teaching Assistant</em> for Professor Wajih Ul Hassan
       year: Fall 2024
       description:
-        - Manage weekly office hours
-        - Review assignments, providing feedback and grade
+        - Managed weekly office hours
+        - Reviewed assignments, providing feedback and grades
 
-    - title: Instructional Assistant, "Foundations of Machine Learning" (Professor Terence Johnson)
+    - title: Foundations of Machine Learning
       institution: School of Data Science, University of Virginia
+      maindescription: <em>Instructional Assistant</em> for Professor Terence Johnson
       year: Fall 2024
       description:
-        - Manage weekly office hours
-        - Review lab assignments, providing feedback and grade
+        - Managed weekly office hours
+        - Reviewed lab assignments, providing feedback and grades
 
-    - title: Teaching Assistant, "Probability" (Professor Christian Hellings and Professor Jundong Li)
+    - title: Probability
       institution: Department of Applied Mathematics, University of Virginia
+      maindescription: <em>Teaching Assistant</em> for Professor Christian Hellings and Professor Jundong Li
       year: Fall 2022 - Fall 2023
       description:
         - Provided in-class coaching and support
-        - Reviewed assignments, provided feedback and graded
+        - Reviewed assignments, providing feedback and grades
 
 - title: Professional Experience
   type: time_table
   contents:
-    - title: Software Engineering Intern, Data Path Team
-      institution: Nasuni, Boston, MA
+    - title: Nasuni
+      institution: Boston, MA
+      maindescription: <em>Software Engineering Intern</em>, Data Path Team
       year: Summer 2023
       description:
-        - Reinforced typing into python codebase through type-hinting
-        - Reconstructed and maintained features of the codebase to optimize the workflow of the team
+        - Added type hints throughout the Python codebase
+        - Rebuilt and maintained features of the codebase to streamline the team's workflow
 
 - title: Leadership Experience
   type: time_table
   contents:
-    - title: CEO and Co-Founder
-      institution: The Clover Project, Poughkeepsie, NY
+    - title: The Clover Project
+      institution: Poughkeepsie, NY
+      maindescription: <em>CEO and Co-Founder</em>
       year: Mar 2019 - Present
       description:
         - Manage over 150 student volunteers with the mission of reducing local food insecurity
@@ -131,6 +142,5 @@
   contents:
     - title: Decision Analysis Certificate
       institution: Cornell University, Ithaca, NY
+      maindescription: Using an evidence-based approach to model decision-making processes
       year: 2024
-      description:
-        - Using an evidence-based approach to model decision making processes
