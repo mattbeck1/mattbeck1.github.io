@@ -37,6 +37,15 @@
       description:
         - Constructing computer vision software to digitize surgical flowsheets for developing countries
 
+- title: Publications
+  type: time_table
+  contents:
+    - title: Robust Digitization of Perioperative Surgical Flowsheets From Low and Middle Income Countries
+      year: 2025
+      description:
+        - Charbel Marche, Hannah Valenty, Matthew Beck, Ryan Folks, and Mai Dahshan
+        - 2025 Systems and Information Engineering Design Symposium (SIEDS), pp. 354-359. <a href="https://doi.org/10.1109/SIEDS65500.2025.11021169">doi:10.1109/SIEDS65500.2025.11021169</a>
+
 - title: Teaching Experience
   type: time_table
   contents:
