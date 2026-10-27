@@ -1,97 +1,123 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Ph.D., Computer Science
+      institution: Stony Brook University, Stony Brook, NY
+      year: Expected 2031
 
-- title: Experience
+    - title: M.S., Data Science
+      institution: University of Virginia, Charlottesville, VA
+      year: May 2025
+
+    - title: B.S. with High Distinction, Computer Science
+      institution: University of Virginia, Charlottesville, VA
+      year: May 2024
+      description:
+        - Applied Mathematics and Data Science Minors, Cybersecurity Focal Path
+
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant, Professor R. Sekar
+      institution: Department of Computer Science, Stony Brook University
+      year: Aug 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing complete intrusion detection system pipeline
+        - Building an efficient, information rich Windows log producer for intrusion detection systems
+
+    - title: Research Assistant, Professor Wajih Ul Hassan
+      institution: Department of Computer Science, University of Virginia
+      year: Jun 2024 - May 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Investigating the optimization of intrusion detection systems' throughput
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Team Member, Data Science Capstone
+      institution: School of Data Science, University of Virginia
+      year: Oct 2024 - May 2025
       description:
+        - Constructing computer vision software to digitize surgical flowsheets for developing countries
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Teaching Assistant, "Introduction to Network Administration" (Ahmad Esmaili)
+      institution: Department of Computer Science, Stony Brook University
+      year: Fall 2025
+      description:
+        - Manage weekly lab sessions
+        - Review assignments, providing feedback and grade
+        - Review and edit lab/homework assignments
 
-- title: Honors and Awards
+    - title: Teaching Assistant, "Systems Administration" (Ahmad Esmaili)
+      institution: Department of Computer Science, Stony Brook University
+      year: Spring 2025
+      description:
+        - Manage weekly office hours
+        - Review assignments, providing feedback and grade
+        - Review and edit lab/homework assignments
+
+    - title: Teaching Assistant, "Defense Against the Dark Arts" (Professor Wajih Ul Hassan)
+      institution: Department of Computer Science, University of Virginia
+      year: Fall 2024
+      description:
+        - Manage weekly office hours
+        - Review assignments, providing feedback and grade
+
+    - title: Instructional Assistant, "Foundations of Machine Learning" (Professor Terence Johnson)
+      institution: School of Data Science, University of Virginia
+      year: Fall 2024
+      description:
+        - Manage weekly office hours
+        - Review lab assignments, providing feedback and grade
+
+    - title: Teaching Assistant, "Probability" (Professor Christian Hellings and Professor Jundong Li)
+      institution: Department of Applied Mathematics, University of Virginia
+      year: Fall 2022 - Fall 2023
+      description:
+        - Provided in-class coaching and support
+        - Reviewed assignments, provided feedback and graded
+
+- title: Professional Experience
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Software Engineering Intern, Data Path Team
+      institution: Nasuni, Boston, MA
+      year: Summer 2023
+      description:
+        - Reinforced typing into python codebase through type-hinting
+        - Reconstructed and maintained features of the codebase to optimize the workflow of the team
 
-- title: Academic Interests
-  type: nested_list
+- title: Leadership Experience
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: CEO and Co-Founder
+      institution: The Clover Project, Poughkeepsie, NY
+      year: Mar 2019 - Present
+      description:
+        - Manage over 150 student volunteers with the mission of reducing local food insecurity
+        - Produced over three tons of fresh produce for donation to local food banks
 
-- title: Other Interests
-  type: list
+- title: Technical Skills
+  type: map
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: Programming Languages
+      value: Python (Advanced), C++ (Advanced), SQL (Advanced), R (Advanced), C (Advanced), JavaScript (Intermediate), Java (Intermediate)
+    - name: Web Development
+      value: HTML5, CSS3, Bootstrap, Node.js
+    - name: Software and Tools
+      value: Docker, AWS, GCP, Azure, Git, Agile methodologies
+    - name: Databases
+      value: MySQL, MongoDB, PostgreSQL
+    - name: Data Science and Machine Learning
+      value: Pandas, Numpy, Scikit-learn, TensorFlow, Jupyter, Regression, Clustering, Classification, Deep Learning
+    - name: Cybersecurity
+      value: Wireshark, Metasploit, Encryption, Vulnerability Analysis, Intrusion Detection, ELK stack (ElasticSearch, Logstash, Kibana), SIGMA rules, Autopsy, Sleuth Kit
+
+- title: Professional Development
+  type: time_table
+  contents:
+    - title: Decision Analysis Certificate
+      institution: Cornell University, Ithaca, NY
+      year: 2024
+      description:
+        - Using an evidence-based approach to model decision making processes
