@@ -4,33 +4,39 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
-          description: "",
+          title: "Publications",
+          description: "My papers, also listed on Google Scholar.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "",
+          title: "Teaching",
+          description: "Courses I have been a teaching or instructional assistant for at Stony Brook University and the University of Virginia.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "teaching-probability",
+        },{id: "news-graduated-with-an-m-s-in-data-science-from-the-university-of-virginia",
+          title: 'Graduated with an M.S. in Data Science from the University of Virginia.',
+          description: "",
+          section: "News",},{id: "news-started-my-ph-d-in-computer-science-at-stony-brook-university-working-with-professor-r-sekar",
+          title: 'Started my Ph.D. in Computer Science at Stony Brook University, working with Professor...',
+          description: "",
+          section: "News",},{id: "teaching-probability",
           title: 'Probability',
           description: "APMA 3100 · Teaching Assistant",
           section: "Teaching",handler: () => {
