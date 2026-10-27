@@ -30,34 +30,34 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "teaching-apma-3100",
-          title: 'APMA 3100',
-          description: "Probability",
+        },{id: "teaching-probability",
+          title: 'Probability',
+          description: "APMA 3100 · Teaching Assistant",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/APMA3100/";
-            },},{id: "teaching-ds-1001",
-          title: 'DS 1001',
-          description: "Foundation of Data Science",
+            },},{id: "teaching-foundation-of-data-science",
+          title: 'Foundation of Data Science',
+          description: "DS 1001 · Teaching Assistant",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/DS1001/";
-            },},{id: "teaching-ise-321",
-          title: 'ISE 321',
-          description: "Introduction to Network Administration",
+            },},{id: "teaching-introduction-to-network-administration",
+          title: 'Introduction to Network Administration',
+          description: "ISE 321 · Teaching Assistant",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/ISE321/";
             },},{id: "teaching-defense-against-the-dark-arts",
           title: 'Defense Against the Dark Arts',
-          description: "Cybersecurity",
+          description: "CS 4630 · Teaching Assistant",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/defense-dark-arts/";
             },},{id: "teaching-foundations-of-machine-learning",
           title: 'Foundations of Machine Learning',
-          description: "Machine Learning",
+          description: "DS 3001 · Instructional Assistant",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/foundations-ml/";
             },},{id: "teaching-systems-administration",
           title: 'Systems Administration',
-          description: "Information Systems Course",
+          description: "CSE 311 · Teaching Assistant",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/sysadmin/";
             },},{
