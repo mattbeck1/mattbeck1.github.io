@@ -1,8 +1,8 @@
 ---
 layout: page
-title: teaching
+title: Teaching
 permalink: /teaching/
-description:
+description: Courses I have been a teaching or instructional assistant for at Stony Brook University and the University of Virginia.
 nav: true
 nav_order: 3
 display_categories: [Stony Brook University, University of Virginia]

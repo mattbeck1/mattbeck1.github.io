@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description:
+title: Publications
+description: My papers, also listed on Google Scholar.
 nav: true
 nav_order: 2
 ---
